@@ -1,0 +1,192 @@
+:root {
+  --primery-text-color: #757575;
+  --primery-white-color: #ffffff;
+  --titul-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primery-text-color);
+  background-color: var(--primery-white-color);
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* ----------Header---------- */
+.header {
+  background-color: var(--primery-white-color);
+}
+/* --logo-- */
+.header-logo {
+  color: var(--titul-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.accent {
+  color: var(--accent-color);
+}
+.header-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--titul-text-color);
+}
+.header-link.current {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+.header-mail,
+.header-tel {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+/* ---------------main---------- */
+/* ------------hero----------- */
+.hero {
+  background-color: var(--titul-text-color);
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+}
+
+.hero-btn {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+}
+/* ---------section----------- */
+.feature-list .title {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--titul-text-color);
+}
+.title-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.about-title,
+.team-title {
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--titul-text-color);
+}
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-name {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--titul-text-color);
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* ------------------footer---------------- */
+.footer {
+  background-color: var(--dark-background-color);
+}
+.footer-link {
+  color: var(--primery-white-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer-address-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primery-white-color);
+}
+.footer-address {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--primery-white-color);
+}
+/* -----Portfolio---------- */
+.btn.current {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+}
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--titul-text-color);
+  background-color: #f5f4fa;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+}
+.img {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--titul-text-color);
+}
+.img-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primery-text-color);
+}
