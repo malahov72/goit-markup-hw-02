@@ -140,15 +140,6 @@ body {
   color: var(--primery-white-color);
 }
 /* -----Portfolio---------- */
-.filter-btn.current {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  color: var(--primery-white-color);
-  background-color: var(--accent-color);
-}
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
@@ -158,10 +149,16 @@ body {
   color: var(--titul-text-color);
   background-color: #f5f4fa;
 }
+.filter-btn.current {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+}
+
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 .portfolio-title {
   font-weight: 700;
